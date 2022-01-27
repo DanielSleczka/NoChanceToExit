@@ -60,6 +60,8 @@ MonoBehaviour:
   winView: {fileID: 0}
   exitBlock: {fileID: 0}
   scoreSystem: {fileID: 9044101141737320271}
+  instructionView: {fileID: 0}
+  finalView: {fileID: 0}
 --- !u!1001 &3638842410802662046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,7 +371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1924190288291117246, guid: ef2f6160ffe08c14aaa4db234232f63a, type: 3}
       propertyPath: duration
-      value: 65
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 3354041199921825587, guid: ef2f6160ffe08c14aaa4db234232f63a, type: 3}
       propertyPath: m_RootOrder

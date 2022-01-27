@@ -457,6 +457,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6115761352521317433, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
+      propertyPath: winAudio
+      value: 
+      objectReference: {fileID: 790689585}
+    - target: {fileID: 6115761352521317437, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
+      propertyPath: loseAudio
+      value: 
+      objectReference: {fileID: 790689586}
     - target: {fileID: 6115761352594387240, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -501,13 +509,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
 --- !u!114 &647135671 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3158642063848395988, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6115761352521317433, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
   m_PrefabInstance: {fileID: 647135670}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44dbbdc698fb6264899227e2f8935747, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ea2233c3732a034fad7709681d2bfb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &647135672 stripped
@@ -523,13 +531,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &647135673 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6115761353502691724, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6115761352521317437, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
   m_PrefabInstance: {fileID: 647135670}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6731c590072f539459194c48b1c78636, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a7c4049791ad9f4e923cb88310c83fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &647135674 stripped

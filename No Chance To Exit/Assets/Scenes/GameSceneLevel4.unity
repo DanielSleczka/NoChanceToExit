@@ -1022,6 +1022,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GUI
       objectReference: {fileID: 0}
+    - target: {fileID: 6115761352521317433, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
+      propertyPath: winAudio
+      value: 
+      objectReference: {fileID: 343956531}
+    - target: {fileID: 6115761352521317437, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
+      propertyPath: loseAudio
+      value: 
+      objectReference: {fileID: 343956532}
     - target: {fileID: 6115761352594387240, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1092,13 +1100,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1267907538 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6115761353502691724, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6115761352521317437, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
   m_PrefabInstance: {fileID: 1267907535}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6731c590072f539459194c48b1c78636, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a7c4049791ad9f4e923cb88310c83fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1267907539 stripped
@@ -1114,13 +1122,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1267907540 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3158642063848395988, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6115761352521317433, guid: 1dc6ad6ec2baf00449885be7d6e12714, type: 3}
   m_PrefabInstance: {fileID: 1267907535}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44dbbdc698fb6264899227e2f8935747, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ea2233c3732a034fad7709681d2bfb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1398011567
@@ -3079,10 +3087,6 @@ PrefabInstance:
       propertyPath: playerSwitcher
       value: 
       objectReference: {fileID: 1471404787}
-    - target: {fileID: 7302299364688296189, guid: 14365acdf4ce9fa4187284245ce0cd78, type: 3}
-      propertyPath: duration
-      value: 48
-      objectReference: {fileID: 0}
     - target: {fileID: 9044101141737320271, guid: 14365acdf4ce9fa4187284245ce0cd78, type: 3}
       propertyPath: winView
       value: 
