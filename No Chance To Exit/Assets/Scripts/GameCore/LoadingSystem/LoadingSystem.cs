@@ -15,7 +15,7 @@ namespace GameCore
             sceneToLoad = sceneIndex;
             if (sceneToLoad == 0)
             {
-                GameObject.FindGameObjectWithTag("GameMusic").GetComponent<AudioSource>().Stop();
+                GameObject.FindGameObjectWithTag("GameMusic")?.GetComponent<AudioSource>().Stop();
             }
             sceneToUnload = SceneManager.GetActiveScene().buildIndex;
             StartCoroutine(LoadScene());

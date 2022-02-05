@@ -35,10 +35,13 @@ namespace GameCore
         {
             base.Start();
             saveSystem.LoadData();
+
+            // If the game was played, set the continue button to active
             if (saveSystem.GetSave().wasPlayed)
             {
                 menuView.continueGameButton.interactable = true;
             }
+
             ChangeState(menuState);
         }
 

@@ -61,9 +61,10 @@ namespace GameCore
         private void ContinueGame()
         {
             var levelIndex = saveSystem.GetSave().levelIndex;
-            GameObject.FindGameObjectWithTag("GameMusic")?.GetComponent<AudioSource>().Play();
             loadingView.ShowView();
             loadingSystem.StartLoadingScene(levelIndex);
+            GameObject.FindGameObjectWithTag("GameMusic")?.GetComponent<AudioSource>().Play();
+            Debug.Log(GameObject.FindGameObjectWithTag("GameMusic"));
         }
 
         private void CreateNewGame()
